@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id="header">technology</h1>
+    <p id="footer"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum dicta expedita necessitatibus vel consectetur voluptate omnis, deserunt minus impedit corporis iusto dolore unde vitae provident nemo sit itaque optio fugiat!</p>
+
+    
+   
+
+    <input type="number" id="box1" placeholder="number" required>
+    <input type="number" id="box2" placeholder="number" required>
+    <input type="number" id="answer" placeholder="answer" readonly>
+    <button onclick="add()">add</button>
+    <button onclick="alert('your message comes here')">clickme  </button>
+
+    <video controls style width="100%">
+        <source src="video/1 - Intro to JavaScript.mp4">
+      </video>
+      <audio controls>
+          <source src="audio/Discovering and Fulfilling Life's Purpose (Part 2) (64  kbps).mp3"> 
+      </audio>   
+
+    <script>
+        function add(){
+            var box1=document.getElementById("box1").value
+            var box2=document.getElementById("box2").value
+            var sum= Number (box1)+ Number(box2)
+            document.getElementById("answer").value=sum
+        }
+    </script>
+     <table border="" style="width:100%"> 
+         <tr width="100">
+            <td>SN</td>
+            <td>NAME</td>
+            <td>GENDER</td>
+            <td>IMAGE</td>
+        </tr>
+        <tr>
+            <td style="width: 25%;">1</td>
+            <td style="width: 25%;">Dickson</td>
+            <td style="width: 25%;">male</td>
+             <td><img src="image/Hisense.jpg" alt="" width="100%"></td>
+             <td></td>
+        </tr>
+        <tr>
+            <td style="width: 25%;">2</td>
+            <td style="width: 25%;">abel</td>
+            <td style="width: 25%;">male</td>
+             <td><img src="image/audi - Copy.jpg" alt="" width="100%"></td> 
+        </tr>
+         <tr>
+             <td style="width: 25%;">3</td>
+             <td style="width: 25%;">sam</td>
+             <td style="width: 25%;">male</td>
+             <td><img src="image/dell.jpg" alt="" width="100%"></td>
+        </tr>
+        <tr>
+             <td style="width: 25%;">4</td>
+             <td style="width: 25%;">abrahram</td>
+             <td style="width: 25%;">female</td>
+             <td><img src="image/audi.jpg" alt="" width="100%"></td>
+        </tr>
+        <tr>
+             <td style="width: 25%;">5</td>
+             <td style="width: 25%;">esther</td>
+             <td style="width: 25%;">female</td>
+             <td><img src="image/dell - Copy.jpg" alt="" width="100%"></td>
+        </tr>
+      </table>
+     <br><br>
+        
+        
+       
+      </div>
+         
+      </body>     
+      </html>
